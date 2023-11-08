@@ -10,20 +10,27 @@ use \Illuminate\Http\JsonResponse;
 class IndexController extends Controller
 {
 
+    /**
+     * @return View
+     */
     public function showIndexPage(): View
     {
         return view('pages.index');
     }
 
     /**
-     * @return
+     * @return JsonResponse
      */
     public function getUsersCount(): JsonResponse
     {
         return response()->json(User::count());
     }
 
-    public function importUsers(GetClients $service)//: JsonResponse
+    /**
+     * @param GetClients $service
+     * @return JsonResponse
+     */
+    public function importUsers(GetClients $service): JsonResponse
     {
         $result = $service->getClients();
         return response()->json(['all'=>$result->all,'updated'=>$result->updated,'inserted'=>$result->inserted]);

@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6e68bf-07f4-45c0-abf1-cdb9d388d788" name="Changes" comment="Front + migration + routes">
-      <change afterPath="$PROJECT_DIR$/app/Contracts/GetClients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/updateUserRecordsJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/getClientService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3e6e68bf-07f4-45c0-abf1-cdb9d388d788" name="Changes" comment="Описание дополненное">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps_temp_b4803a4b/@popperjs_core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps_temp_b4803a4b/@popperjs_core.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699434829387</updated>
       <workItem from="1699434830983" duration="15504000" />
-      <workItem from="1699451916556" duration="8809000" />
+      <workItem from="1699451916556" duration="9750000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -224,7 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699438393938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Окончание">
+      <option name="closed" value="true" />
+      <created>1699463210452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699463210452</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Описание">
+      <option name="closed" value="true" />
+      <created>1699463483999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699463483999</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Описание дополненное">
+      <option name="closed" value="true" />
+      <created>1699463693764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699463693764</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +247,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial" />
     <MESSAGE value="Front + migration + routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front + migration + routes" />
+    <MESSAGE value="Окончание" />
+    <MESSAGE value="Описание" />
+    <MESSAGE value="Описание дополненное" />
+    <option name="LAST_COMMIT_MESSAGE" value="Описание дополненное" />
   </component>
 </project>
