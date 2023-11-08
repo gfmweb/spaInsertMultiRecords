@@ -96,10 +96,9 @@ class getClientService implements GetClients
                    $new = false; break;
                }
            }
-           if(!$new){$this->toUpdate->push($client);}
-           else{$this->toInsert->push($client);}
+           if(!$new) $this->toUpdate->push($client);
+           else $this->toInsert->push($client);
        }
-
     }
 
     /**
