@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\IndexController::class,'showIndexPage']);
+Route::get('test',[\App\Http\Controllers\Test::class,'index']);

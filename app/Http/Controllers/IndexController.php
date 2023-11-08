@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contracts\GetClients;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -22,9 +23,9 @@ class IndexController extends Controller
         return response()->json(User::count());
     }
 
-    public function importUsers(): JsonResponse
+    public function importUsers(GetClients $service)//: JsonResponse
     {
-
-        return response()->json(['all'=>400,'updated'=>200,'inserted'=>100]);
+        $result = $service->getClients();
+        return response()->json(['all'=>$result->all,'updated'=>$result->updated,'inserted'=>$result->inserted]);
     }
 }

@@ -35,9 +35,9 @@ export default {
             <div class="card">
                 <div class="card-body">
                     <button class="btn btn-lg btn-info" @click="ImportUsers">Импортировать пользователей</button>&nbsp;&nbsp;
-                    Всего <strong>{{all}}</strong>&nbsp;
-                    Добавлено <strong>{{updated}}</strong>&nbsp;
-                    Обновлено <strong>{{inserted}}</strong>
+                    Всего <strong>{{all.toLocaleString()}}</strong>&nbsp;
+                    Добавлено <strong>{{inserted.toLocaleString()}}</strong>&nbsp;
+                    Обновлено <strong>{{updated.toLocaleString()}}</strong>
                 </div>
             </div>
         </div>
