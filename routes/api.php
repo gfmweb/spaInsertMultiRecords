@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::prefix('v1')->group(function(){
+   Route::get('getUsersCount',[\App\Http\Controllers\IndexController::class,'getUsersCount']);
+   Route::post('importUsers',[\App\Http\Controllers\IndexController::class,'importUsers']);
+});
+
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
